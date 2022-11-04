@@ -1,0 +1,111 @@
+body{
+  font-family: sans-serif;
+  color:white;
+  background-color:black;
+}
+
+
+
+
+.outer{
+  text-align: center;
+}
+
+.page{
+  max-width: 1200px;
+  width: 100%;
+  text-align: left;
+  display:inline-block;
+}
+
+.topnav{
+  background-color:black;
+  height:50px;
+  text-align:center;
+  padding:15px;
+  color:white;
+}
+
+.nav{
+  font-family: sans-serif;
+   margin-left:20px;
+   margin-top:5px;
+   flex-grow: 1;
+ }
+
+ a{
+  color:white;
+  font-size:16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right:50px;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+ }
+  a:active {
+  color:#CCC;
+}
+
+.layout{
+  width:100%;
+  height:100%;
+  background-color:black;
+}
+
+/* Navigation*/
+.topnav img{
+  max-width:50%;
+  text-align:left;
+}
+
+/* HERO IMAGE*/
+.hero_content{
+  font-size:28px;
+  color:white;
+  text-align:left;
+  margin-bottom:25px;
+}
+
+.hero_text_headline{
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.hero_content img{
+  max-width:100%;
+}
+
+/*media-card (3COLUMNS) COMPONENT*/
+.media-card{
+  height:100%;
+  background-color:#041a3e;
+  overflow:auto;
+  margin-top:0px;
+  text-align:left;
+
+}
+
+.media-card .section{
+  color:white;
+  font-size:24px;
+  text-align:left;
+  padding-bottom:75px;
+  height:100%;
+}
+
+.media-card img{
+  float: center;
+  width:100%;
+  margin-bottom:20px;
+}
+
+/* [class^="sidebar"] element that starts with */
+div [class^="media-card"]:first-of-type {
+  margin:0px;
+}
+div [class^="media-card"]:last-of-type {
+  margin:0px;
+}
