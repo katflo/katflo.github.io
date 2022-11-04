@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+     .my_filter{
+
+      -webkit-filter: blur:(20px) grayscale(1) hue-rotate(-90deg) invert(100);
+      filter: blur(20px) grayscale(1) hue-rotate(-90deg) invert(100);
+
+
+
+     }
+
+
+
+
+
+    .my_filter:hover{
+
+      animation: 1s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+
+	      100%{
+	       -webkit-filter: blur:(0px) grayscale(1) hue-rotate(0) invert(0);
+	        filter: blur(0px) grayscale(0) hue-rotate(0) invert(0);
+	       }
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+
+<img class="my_filter" src="img/moon.jpg" alt="flower">
+
+</body>
+</html>
